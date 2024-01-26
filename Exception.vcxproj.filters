@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{bb6e69aa-15e3-4f56-9ad5-09be2649e364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicStack">
+      <UniqueIdentifier>{150fefcd-03b4-4e79-85d9-01fd43fc69d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicStack.cpp">
+      <Filter>DynamicStack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DynamicStack.h">
+      <Filter>DynamicStack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
